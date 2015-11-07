@@ -1,0 +1,9 @@
+D:\Personal\Programming\HackUState\ConnectTheDots\ConnectTheDots\bin\Debug\ConnectTheDots.exe.config
+D:\Personal\Programming\HackUState\ConnectTheDots\ConnectTheDots\bin\Debug\ConnectTheDots.exe
+D:\Personal\Programming\HackUState\ConnectTheDots\ConnectTheDots\bin\Debug\ConnectTheDots.pdb
+D:\Personal\Programming\HackUState\ConnectTheDots\ConnectTheDots\obj\Debug\ConnectTheDots.csprojResolveAssemblyReference.cache
+D:\Personal\Programming\HackUState\ConnectTheDots\ConnectTheDots\obj\Debug\ConnectTheDots.Form1.resources
+D:\Personal\Programming\HackUState\ConnectTheDots\ConnectTheDots\obj\Debug\ConnectTheDots.Properties.Resources.resources
+D:\Personal\Programming\HackUState\ConnectTheDots\ConnectTheDots\obj\Debug\ConnectTheDots.csproj.GenerateResource.Cache
+D:\Personal\Programming\HackUState\ConnectTheDots\ConnectTheDots\obj\Debug\ConnectTheDots.exe
+D:\Personal\Programming\HackUState\ConnectTheDots\ConnectTheDots\obj\Debug\ConnectTheDots.pdb
