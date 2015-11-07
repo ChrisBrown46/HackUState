@@ -10,6 +10,7 @@ namespace ConnectTheDots
     {
         // Server signal switches this bool, which dicatates if the player can make actions.
         public bool _player1Turn { get; set; }
+        public int _totalBoxes { get { return (_rows - 1) * (_columns - 1); } set { ; } }
         private int _rows { get; set; }
         private int _columns { get; set; }
         private int _player1score { get; set; }
@@ -95,7 +96,7 @@ namespace ConnectTheDots
                         ++sum;
 
                 if (checkBottomEdge(nodes[node1[0], node1[1]]) && checkBottomEdge(nodes[node2[0], node2[1]]))
-                    if (nodes[node1[0] + 1, node1[1]] % 2 == 1)
+                    if (nodes[node2[0] + 1, node2[1]] >= 8)
                         ++sum;
             }
        
@@ -137,6 +138,8 @@ namespace ConnectTheDots
                 case 12:
                     return true;
                 case 13:
+                    return true;
+                case 14:
                     return true;
                 case 15:
                     return true;

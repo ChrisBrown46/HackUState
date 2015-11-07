@@ -146,6 +146,25 @@ namespace ConnectTheDots
                 player1ScoreBox.ForeColor = Color.Black;
                 player2ScoreBox.ForeColor = Color.Green;
             }
+
+            int totalBoxes = game._totalBoxes;
+            delimiterChars[0] = ':';
+            string[] player1ScoreList = player1ScoreBox.Text.Split(delimiterChars);
+            string[] player2ScoreList = player2ScoreBox.Text.Split(delimiterChars);
+            int total = int.Parse(player1ScoreList[1]) + int.Parse(player2ScoreList[1]);
+            if (totalBoxes == total)
+            {
+                if (int.Parse(player1ScoreList[1]) > int.Parse(player2ScoreList[1]))
+                    player1ScoreBox.ForeColor = Color.Yellow;
+                else if (int.Parse(player1ScoreList[1]) < int.Parse(player2ScoreList[1]))
+                    player2ScoreBox.ForeColor = Color.Yellow;
+                else
+                {
+                    player1ScoreBox.ForeColor = Color.Yellow;
+                    player2ScoreBox.ForeColor = Color.Yellow;
+                }
+            }
+
         }
     }
 }
