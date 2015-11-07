@@ -16,5 +16,16 @@ namespace ConnectTheDots
         {
             InitializeComponent();
         }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void startButton_Click(object sender, EventArgs e)
+        {
+            (new GameFinderForm()).Show();
+            this.Close();
+        }
     }
 }

@@ -16,7 +16,9 @@ namespace ConnectTheDots
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainMenuForm());
+
+            (new MainMenuForm()).Show();
+            Application.Run();
         }
     }
 }

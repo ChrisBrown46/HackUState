@@ -23,3 +23,5 @@ D:\Personal\Programming\HackUState\HackUState\ConnectTheDots\bin\Debug\AsyncIO.d
 D:\Personal\Programming\HackUState\HackUState\ConnectTheDots\bin\Debug\EasyNetwork.pdb
 D:\Personal\Programming\HackUState\HackUState\ConnectTheDots\bin\Debug\Newtonsoft.Json.xml
 D:\Personal\Programming\HackUState\HackUState\ConnectTheDots\bin\Debug\NetMQ.xml
+D:\Personal\Programming\HackUState\HackUState\ConnectTheDots\obj\Debug\ConnectTheDots.GameFinderForm.resources
+D:\Personal\Programming\HackUState\HackUState\ConnectTheDots\obj\Debug\ConnectTheDots.GameForm.resources
