@@ -5,10 +5,6 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectTheDots", "ConnectTheDots\ConnectTheDots.csproj", "{2EDCF183-EE7E-44BE-B16B-5F18E78BC88F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetwork", "EasyNetwork\EasyNetwork.csproj", "{B334B401-B417-4B74-862E-1FD8709FFA9F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectTheDotsTester", "ConnectTheDotsTester\ConnectTheDotsTester.csproj", "{F4F98739-ABA1-424F-81CE-9B453204607A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{2EDCF183-EE7E-44BE-B16B-5F18E78BC88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EDCF183-EE7E-44BE-B16B-5F18E78BC88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EDCF183-EE7E-44BE-B16B-5F18E78BC88F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B334B401-B417-4B74-862E-1FD8709FFA9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B334B401-B417-4B74-862E-1FD8709FFA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B334B401-B417-4B74-862E-1FD8709FFA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B334B401-B417-4B74-862E-1FD8709FFA9F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F4F98739-ABA1-424F-81CE-9B453204607A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4F98739-ABA1-424F-81CE-9B453204607A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4F98739-ABA1-424F-81CE-9B453204607A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4F98739-ABA1-424F-81CE-9B453204607A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

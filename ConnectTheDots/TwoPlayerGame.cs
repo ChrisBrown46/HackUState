@@ -9,7 +9,7 @@ namespace ConnectTheDots
     public class TwoPlayerGame
     {
         // Server signal switches this bool, which dicatates if the player can make actions.
-        private bool _player1Turn { get; set; }
+        public bool _player1Turn { get; set; }
         private int _rows { get; set; }
         private int _columns { get; set; }
         private int _player1score { get; set; }
@@ -28,7 +28,28 @@ namespace ConnectTheDots
                 for (int j = 0; j < columns; ++j)
                     nodes[i, j] = 0;
         }
-        public int addEdge(int[] firstPoint, int[] secondPoint)
+        public int addEdge(int row, int column, bool vertical)
+        {
+            int[] firstNode = new int[2];
+            int[] secondNode = new int[2];
+            if (vertical)
+            {
+                firstNode[0] = row;
+                firstNode[1] = column;
+                secondNode[0] = row + 1;
+                secondNode[1] = column;
+            }
+            else
+            {
+                firstNode[0] = row;
+                firstNode[1] = column;
+                secondNode[0] = row;
+                secondNode[1] = column + 1;
+            }
+
+            return addEdge(firstNode, secondNode);
+        }
+        private int addEdge(int[] firstPoint, int[] secondPoint)
         {
             // Adding edgenumber to first edge possibility
             int[] firstArray = { firstPoint[0] - secondPoint[0], firstPoint[1] - secondPoint[1] }; // Such as [0,1]

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.settingsGroupBox = new System.Windows.Forms.GroupBox();
-            this.beginnerMode = new System.Windows.Forms.RadioButton();
-            this.intermediateMode = new System.Windows.Forms.RadioButton();
             this.advancedMode = new System.Windows.Forms.RadioButton();
+            this.intermediateMode = new System.Windows.Forms.RadioButton();
+            this.beginnerMode = new System.Windows.Forms.RadioButton();
             this.gameStartButton = new System.Windows.Forms.Button();
             this.backButton = new System.Windows.Forms.Button();
             this.settingsGroupBox.SuspendLayout();
@@ -50,17 +50,17 @@
             this.settingsGroupBox.TabStop = false;
             this.settingsGroupBox.Text = "Settings";
             // 
-            // beginnerMode
+            // advancedMode
             // 
-            this.beginnerMode.AutoSize = true;
-            this.beginnerMode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.beginnerMode.Location = new System.Drawing.Point(6, 37);
-            this.beginnerMode.Name = "beginnerMode";
-            this.beginnerMode.Size = new System.Drawing.Size(120, 29);
-            this.beginnerMode.TabIndex = 0;
-            this.beginnerMode.TabStop = true;
-            this.beginnerMode.Text = "5x5 Mode";
-            this.beginnerMode.UseVisualStyleBackColor = true;
+            this.advancedMode.AutoSize = true;
+            this.advancedMode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.advancedMode.Location = new System.Drawing.Point(6, 107);
+            this.advancedMode.Name = "advancedMode";
+            this.advancedMode.Size = new System.Drawing.Size(142, 29);
+            this.advancedMode.TabIndex = 2;
+            this.advancedMode.TabStop = true;
+            this.advancedMode.Text = "15x15 Mode";
+            this.advancedMode.UseVisualStyleBackColor = true;
             // 
             // intermediateMode
             // 
@@ -74,17 +74,17 @@
             this.intermediateMode.Text = "10x10 Mode";
             this.intermediateMode.UseVisualStyleBackColor = true;
             // 
-            // advancedMode
+            // beginnerMode
             // 
-            this.advancedMode.AutoSize = true;
-            this.advancedMode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.advancedMode.Location = new System.Drawing.Point(6, 107);
-            this.advancedMode.Name = "advancedMode";
-            this.advancedMode.Size = new System.Drawing.Size(142, 29);
-            this.advancedMode.TabIndex = 2;
-            this.advancedMode.TabStop = true;
-            this.advancedMode.Text = "15x15 Mode";
-            this.advancedMode.UseVisualStyleBackColor = true;
+            this.beginnerMode.AutoSize = true;
+            this.beginnerMode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.beginnerMode.Location = new System.Drawing.Point(6, 37);
+            this.beginnerMode.Name = "beginnerMode";
+            this.beginnerMode.Size = new System.Drawing.Size(120, 29);
+            this.beginnerMode.TabIndex = 0;
+            this.beginnerMode.TabStop = true;
+            this.beginnerMode.Text = "5x5 Mode";
+            this.beginnerMode.UseVisualStyleBackColor = true;
             // 
             // gameStartButton
             // 
@@ -110,6 +110,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(478, 329);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.gameStartButton);

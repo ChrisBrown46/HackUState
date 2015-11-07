@@ -37,7 +37,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(241, 57);
+            this.label1.Location = new System.Drawing.Point(164, 59);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(343, 46);
             this.label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(570, 166);
+            this.exitButton.Location = new System.Drawing.Point(403, 166);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(192, 56);
             this.exitButton.TabIndex = 2;
@@ -67,7 +67,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(843, 355);
+            this.BackColor = System.Drawing.Color.DarkGray;
+            this.ClientSize = new System.Drawing.Size(667, 312);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.label1);
